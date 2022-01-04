@@ -1,3 +1,6 @@
-mcs 1-2-22.cs -o builds/1-2-22.exe
+today=$(date +'%m-%d-%Y')
 
-mono builds/1-2-22.exe
+echo "building"
+mcs "$today.cs" -out:builds/$today.exe || { echo 'failed to build' ; exit 1;}
+echo "running"
+mono "builds/$today.exe"
