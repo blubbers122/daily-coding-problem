@@ -15,7 +15,7 @@ class DailyCodingProblem
 		Console.WriteLine(NumberOfUniqueDecodings("111")); // should be 3 'aaa', 'ka', 'ak
 		Console.WriteLine(NumberOfUniqueDecodings("1")); // should be 1 'a'
 		Console.WriteLine(NumberOfUniqueDecodings("11")); // should be 2 'aa', 'k'
-		Console.WriteLine(NumberOfUniqueDecodings("27")); // should be 2 'b', 'g'
+		Console.WriteLine(NumberOfUniqueDecodings("27")); // should be 1 'bg'
 		Console.WriteLine(NumberOfUniqueDecodings("10")); // should be 1 'j'
 		Console.WriteLine(NumberOfUniqueDecodings("22222222")); // should be 1 + 7 + 15 + 10 + 1 = 34
 																														// 'bbbbbbbb', 1
