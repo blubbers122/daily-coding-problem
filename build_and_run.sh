@@ -9,6 +9,7 @@ build_and_run_csharp() {
 		exit 1
 	}
 	echo "running"
+	echo "----------------------------------------"
 	mono "builds/$today.exe"
 }
 
@@ -19,6 +20,7 @@ build_and_run_typescript() {
 		exit 1
 	}
 	echo "running"
+	echo "----------------------------------------"
 	node "builds/$today.js"
 }
 
