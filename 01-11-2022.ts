@@ -17,7 +17,7 @@ class DailyCodingProblem_01_11_2022 {
 	}
 
   jobScheduler = (f: Function, n: number): void => {
-		setInterval(f,n);
+		setTimeout(f,n);
 	};
 }
 
