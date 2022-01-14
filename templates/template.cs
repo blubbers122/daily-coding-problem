@@ -5,4 +5,9 @@ class DailyCodingProblem
 	{
 
 	}
+
+	static void FunctionName()
+	{
+
+	}
 }
