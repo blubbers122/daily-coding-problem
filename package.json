@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/node": "^17.0.8"
+  },
+	"scripts": {
+		"create": "sh create_code_template.sh",
+		"start": "sh build_and_run.sh",
+		"lint": "eslint --ext .js,.ts,.cs src test"
+	}
+}
