@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"lib": ["es2021"],
+		"target": "es2021"
+	},
+	"exclude": [
+		"node_modules",
+		"templates",
+		"builds"
+	]
+}

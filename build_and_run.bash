@@ -15,7 +15,7 @@ build_and_run_csharp() {
 
 build_and_run_typescript() {
 	echo "building"
-	tsc "$today.ts" --outDir "builds" || {
+	tsc "01-18-2022" --outDir "builds" --module commonjs --lib es2021 --target es2021 || {
 		echo 'failed to build'
 		exit 1
 	}
