@@ -6,12 +6,12 @@ class DailyCodingProblem
 	{
 		System.Diagnostics.Stopwatch stopWatch = new System.Diagnostics.Stopwatch();
 		stopWatch.Start();
-		FunctionName();
+		MatchesRegex();
 		stopWatch.Stop();
 		Console.WriteLine($"Execution Time: {stopWatch.ElapsedMilliseconds} ms");
 	}
 
-	static void FunctionName()
+	static void MatchesRegex()
 	{
 
 	}
